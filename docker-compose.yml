@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  minimalapipeliculas:
+    image: ${DOCKER_REGISTRY-}minimalapipeliculas
+    build:
+      context: .
+      dockerfile: MinimalApiPeliculas/Dockerfile
+
+networks:
+  default:
+    external:
+      name: microservicionet
