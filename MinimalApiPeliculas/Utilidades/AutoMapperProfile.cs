@@ -11,6 +11,9 @@ namespace MinimalApiPeliculas.Utilidades
         {
             CreateMap<CrearGeneroDto, Genero>().ReverseMap();
             CreateMap<Genero, GeneroDto>().ReverseMap();
+            CreateMap<CrearActorDto, Actor>().ReverseMap()
+                .ForMember(a => a.Foto, options => options.Ignore()); //No hará conversion de IFormFile a String
+            CreateMap<Actor, ActorDto>().ReverseMap();
         }
     }
 }

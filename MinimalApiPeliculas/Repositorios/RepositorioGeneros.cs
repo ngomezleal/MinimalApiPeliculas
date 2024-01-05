@@ -15,7 +15,7 @@ namespace MinimalApiPeliculas.Repositorios
 
         public async Task<Genero?> ObtenerPorId(int id)
         {
-            return await context.Generos.FirstOrDefaultAsync(g => g.Id == id);
+            return await context.Generos.AsNoTracking().FirstOrDefaultAsync(g => g.Id == id);
         }
 
         public async Task<List<Genero>> ObtenerTodos()

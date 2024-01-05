@@ -1,12 +1,9 @@
 using Microsoft.AspNetCore.Cors;
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.OutputCaching;
 using Microsoft.EntityFrameworkCore;
 using MinimalApiPeliculas.Context;
 using MinimalApiPeliculas.Endpoints;
-using MinimalApiPeliculas.Entidades;
-using MinimalApiPeliculas.Migrations;
 using MinimalApiPeliculas.Repositorios;
+using MinimalApiPeliculas.Servicios;
 
 var builder = WebApplication.CreateBuilder(args);
 var ambiente = builder.Configuration.GetValue<string>("Ambiente");
@@ -35,6 +32,9 @@ builder.Services.AddOutputCache();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IRepositorioGeneros, RepositorioGeneros>();
+builder.Services.AddScoped<IRepositorioActores, RepositorioActores>();
+builder.Services.AddScoped<IAlmacenadorArchivos, AlmacenadorArchivosLocal>();
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddAutoMapper(typeof(Program));
 #endregion
 
@@ -43,6 +43,7 @@ var app = builder.Build();
 #region Middleware
 app.UseSwagger();
 app.UseSwaggerUI();
+app.UseStaticFiles();
 app.UseCors();
 app.UseOutputCache();
 
@@ -50,6 +51,7 @@ app.MapGet("/", [EnableCors(policyName: "libre")] () => ambiente);
 
 //Agrupacion de Endpoints
 app.MapGroup("/generos").MapGeneros();
+app.MapGroup("/actores").MapActores();
 #endregion
 
 app.Run();

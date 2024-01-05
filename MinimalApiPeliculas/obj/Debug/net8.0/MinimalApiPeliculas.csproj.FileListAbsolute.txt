@@ -5,6 +5,8 @@ C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiP
 C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\MinimalApiPeliculas.runtimeconfig.json
 C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\MinimalApiPeliculas.dll
 C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\MinimalApiPeliculas.pdb
+C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\Humanizer.dll
@@ -120,6 +122,7 @@ C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiP
 C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\obj\Debug\net8.0\MinimalApiPeliculas.csproj.CoreCompileInputs.cache
 C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\obj\Debug\net8.0\MinimalApiPeliculas.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\obj\Debug\net8.0\MinimalApiPeliculas.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\obj\Debug\net8.0\MinimalApiPeliculas.sourcelink.json
 C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\obj\Debug\net8.0\staticwebassets\msbuild.MinimalApiPeliculas.Microsoft.AspNetCore.StaticWebAssets.props
@@ -134,5 +137,7 @@ C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiP
 C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\obj\Debug\net8.0\MinimalApiPeliculas.pdb
 C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\obj\Debug\net8.0\MinimalApiPeliculas.genruntimeconfig.cache
 C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\obj\Debug\net8.0\ref\MinimalApiPeliculas.dll
-C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\Azure.Storage.Blobs.dll
+C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\Azure.Storage.Common.dll
+C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\MinimalApiPeliculas.staticwebassets.runtime.json

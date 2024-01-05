@@ -1,0 +1,68 @@
+﻿using Microsoft.EntityFrameworkCore;
+using MinimalApiPeliculas.Context;
+using MinimalApiPeliculas.Dtos;
+using MinimalApiPeliculas.Entidades;
+using MinimalApiPeliculas.Utilidades;
+
+namespace MinimalApiPeliculas.Repositorios
+{
+    public class RepositorioActores : IRepositorioActores
+    {
+        private readonly ApplicationDBContext context;
+        private readonly HttpContext httpContext;
+
+        public RepositorioActores(ApplicationDBContext context, IHttpContextAccessor httpContextAccessor)
+        {
+            this.context = context;
+            this.httpContext = httpContextAccessor.HttpContext!;
+        }
+
+        public async Task<List<Actor>> ObtenerTodos(PaginacionDto paginacionDto)
+        {
+            var queryable = context.Actores.AsQueryable();
+            await httpContext.InsertarParametrosPaginacionEnCabecera(queryable);
+            return await queryable
+                .OrderBy(a => a.Nombre)
+                .Paginar(paginacionDto)
+                .ToListAsync();
+        }
+
+        public async Task<Actor?> ObtenerPorId(int id)
+        {
+            return await context.Actores.AsNoTracking().FirstOrDefaultAsync(a => a.Id == id);
+        }
+
+        public async Task<List<Actor>> ObtenerPorNombre(string nombre)
+        {
+            var autores = await context.Actores
+                .Where(a => a.Nombre.Contains(nombre))
+                .OrderBy(a => a.Nombre)
+                .ToListAsync();
+
+            return autores;
+        }
+
+        public async Task<int> Crear(Actor actor)
+        {
+            context.Add(actor);
+            await context.SaveChangesAsync();
+            return actor.Id;
+        }
+
+        public async Task<bool> Existe(int id)
+        {
+            return await context.Actores.AnyAsync(a => a.Id == id);
+        }
+
+        public async Task Actualizar(int id, Actor actor)
+        {
+            context.Update(actor);
+            await context.SaveChangesAsync();
+        }
+
+        public async Task Borrar(int id)
+        {
+            await context.Actores.Where(a => a.Id == id).ExecuteDeleteAsync();
+        }
+    }
+}

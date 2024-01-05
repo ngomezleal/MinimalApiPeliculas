@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "hMkZQOi8IONrQjwaAeHV4lGUYv2KNrv6px/vtoAuLX8=",
+  "Hash": "ZwaBDRBTVL5fNITlsYdcmRkPd30SeogOJbQg569Or1k=",
   "Source": "MinimalApiPeliculas",
   "BasePath": "_content/MinimalApiPeliculas",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "MinimalApiPeliculas\\wwwroot",
+      "Source": "MinimalApiPeliculas",
+      "ContentRoot": "C:\\Users\\Balutek\\Documents\\Projects Nelson Gomez\\MinimalApiPeliculas\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\",
+      "BasePath": "_content/MinimalApiPeliculas",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Balutek\\Documents\\Projects Nelson Gomez\\MinimalApiPeliculas\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\actores\\84adea98-8f4c-49dd-bcc5-b7d9c41268c7.png",
+      "SourceId": "MinimalApiPeliculas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Balutek\\Documents\\Projects Nelson Gomez\\MinimalApiPeliculas\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\",
+      "BasePath": "_content/MinimalApiPeliculas",
+      "RelativePath": "actores/84adea98-8f4c-49dd-bcc5-b7d9c41268c7.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actores\\84adea98-8f4c-49dd-bcc5-b7d9c41268c7.png"
+    }
+  ]
 }

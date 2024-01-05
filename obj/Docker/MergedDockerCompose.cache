@@ -33,4 +33,5 @@ services:
           create_host_path: true
 networks:
   default:
-    name: dockercompose7475475882213840063_default
+    name: microservicionet
+    external: true
