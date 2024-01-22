@@ -1,8 +1,8 @@
-name: dockercompose7475475882213840063
+name: dockercompose14757893894945742498
 services:
   minimalapipeliculas:
     build:
-      context: C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas
+      context: C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas
       dockerfile: MinimalApiPeliculas/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -20,13 +20,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: C:\Users\Balutek\AppData\Roaming/Microsoft/UserSecrets
+        source: C:\Users\ngome\AppData\Roaming/Microsoft/UserSecrets
         target: /home/app/.microsoft/usersecrets
         read_only: true
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\Balutek\AppData\Roaming/ASP.NET/Https
+        source: C:\Users\ngome\AppData\Roaming/ASP.NET/Https
         target: /home/app/.aspnet/https
         read_only: true
         bind:

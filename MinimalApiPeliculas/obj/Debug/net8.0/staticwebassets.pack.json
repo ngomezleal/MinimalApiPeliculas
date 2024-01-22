@@ -1,8 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Balutek\\Documents\\Projects Nelson Gomez\\MinimalApiPeliculas\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\actores\\84adea98-8f4c-49dd-bcc5-b7d9c41268c7.png",
-      "PackagePath": "staticwebassets\\actores\\84adea98-8f4c-49dd-bcc5-b7d9c41268c7.png"
+      "Id": "C:\\Users\\ngome\\OneDrive\\Documentos\\Proyectos BackEnd\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\actores\\cfb23ecd-000f-4248-9f02-b00310bd7e3b.jpeg",
+      "PackagePath": "staticwebassets\\actores\\cfb23ecd-000f-4248-9f02-b00310bd7e3b.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ngome\\OneDrive\\Documentos\\Proyectos BackEnd\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\peliculas\\f0aec189-aaaf-4af7-b313-cda952a5cc78.jpg",
+      "PackagePath": "staticwebassets\\peliculas\\f0aec189-aaaf-4af7-b313-cda952a5cc78.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MinimalApiPeliculas.Microsoft.AspNetCore.StaticWebAssets.props",

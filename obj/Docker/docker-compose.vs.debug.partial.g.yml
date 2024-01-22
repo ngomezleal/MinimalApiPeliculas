@@ -14,14 +14,12 @@ services:
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
-      - NUGET_FALLBACK_PACKAGES=/.nuget/fallbackpackages;/.nuget/fallbackpackages2
+      - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas:/app
-      - C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas:/src
-      - C:\Users\Balutek\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\Balutek\.nuget\packages\:/.nuget/packages:ro
-      - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/.nuget/fallbackpackages:ro
-      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/.nuget/fallbackpackages2:ro
+      - C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\MinimalApiPeliculas:/app
+      - C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas:/src
+      - C:\Users\ngome\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\ngome\.nuget\packages\:/.nuget/packages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -33,7 +31,7 @@ services:
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages --additionalProbingPath /.nuget/fallbackpackages2  \"/app/bin/Debug/net8.0/MinimalApiPeliculas.dll\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages  \"/app/bin/Debug/net8.0/MinimalApiPeliculas.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
     tty: true

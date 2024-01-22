@@ -33,6 +33,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IRepositorioGeneros, RepositorioGeneros>();
 builder.Services.AddScoped<IRepositorioActores, RepositorioActores>();
+builder.Services.AddScoped<IRepositorioPeliculas, RepositorioPeliculas>();
 builder.Services.AddScoped<IAlmacenadorArchivos, AlmacenadorArchivosLocal>();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddAutoMapper(typeof(Program));
@@ -52,6 +53,7 @@ app.MapGet("/", [EnableCors(policyName: "libre")] () => ambiente);
 //Agrupacion de Endpoints
 app.MapGroup("/generos").MapGeneros();
 app.MapGroup("/actores").MapActores();
+app.MapGroup("/peliculas").MapPeliculas();
 #endregion
 
 app.Run();

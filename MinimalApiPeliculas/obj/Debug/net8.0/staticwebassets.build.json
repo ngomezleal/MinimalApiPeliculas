@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZwaBDRBTVL5fNITlsYdcmRkPd30SeogOJbQg569Or1k=",
+  "Hash": "olVyAdjs+siGTMTKXlFU+plnF5Sn5ClDAyP6nlD58TE=",
   "Source": "MinimalApiPeliculas",
   "BasePath": "_content/MinimalApiPeliculas",
   "Mode": "Default",
@@ -10,19 +10,19 @@
     {
       "Name": "MinimalApiPeliculas\\wwwroot",
       "Source": "MinimalApiPeliculas",
-      "ContentRoot": "C:\\Users\\Balutek\\Documents\\Projects Nelson Gomez\\MinimalApiPeliculas\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ngome\\OneDrive\\Documentos\\Proyectos BackEnd\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\",
       "BasePath": "_content/MinimalApiPeliculas",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Balutek\\Documents\\Projects Nelson Gomez\\MinimalApiPeliculas\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\actores\\84adea98-8f4c-49dd-bcc5-b7d9c41268c7.png",
+      "Identity": "C:\\Users\\ngome\\OneDrive\\Documentos\\Proyectos BackEnd\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\actores\\cfb23ecd-000f-4248-9f02-b00310bd7e3b.jpeg",
       "SourceId": "MinimalApiPeliculas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Balutek\\Documents\\Projects Nelson Gomez\\MinimalApiPeliculas\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ngome\\OneDrive\\Documentos\\Proyectos BackEnd\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\",
       "BasePath": "_content/MinimalApiPeliculas",
-      "RelativePath": "actores/84adea98-8f4c-49dd-bcc5-b7d9c41268c7.png",
+      "RelativePath": "actores/cfb23ecd-000f-4248-9f02-b00310bd7e3b.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,7 +33,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\actores\\84adea98-8f4c-49dd-bcc5-b7d9c41268c7.png"
+      "OriginalItemSpec": "wwwroot\\actores\\cfb23ecd-000f-4248-9f02-b00310bd7e3b.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\ngome\\OneDrive\\Documentos\\Proyectos BackEnd\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\peliculas\\f0aec189-aaaf-4af7-b313-cda952a5cc78.jpg",
+      "SourceId": "MinimalApiPeliculas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ngome\\OneDrive\\Documentos\\Proyectos BackEnd\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\",
+      "BasePath": "_content/MinimalApiPeliculas",
+      "RelativePath": "peliculas/f0aec189-aaaf-4af7-b313-cda952a5cc78.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\peliculas\\f0aec189-aaaf-4af7-b313-cda952a5cc78.jpg"
     }
   ]
 }

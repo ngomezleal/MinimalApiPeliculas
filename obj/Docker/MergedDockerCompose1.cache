@@ -1,8 +1,8 @@
-name: dockercompose7475475882213840063
+name: dockercompose14757893894945742498
 services:
   minimalapipeliculas:
     build:
-      context: C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas
+      context: C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas
       dockerfile: MinimalApiPeliculas/Dockerfile
       args:
         BUILD_CONFIGURATION: Debug
@@ -21,10 +21,10 @@ services:
       ASPNETCORE_HTTPS_PORTS: "8081"
       ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
       DOTNET_USE_POLLING_FILE_WATCHER: "1"
-      NUGET_FALLBACK_PACKAGES: /.nuget/fallbackpackages;/.nuget/fallbackpackages2
+      NUGET_FALLBACK_PACKAGES: ""
     image: minimalapipeliculas:dev
     labels:
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages --additionalProbingPath /.nuget/fallbackpackages2  "/app/bin/Debug/net8.0/MinimalApiPeliculas.dll"'
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages  "/app/bin/Debug/net8.0/MinimalApiPeliculas.dll"'
       com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
       com.microsoft.visualstudio.debuggee.workingdirectory: /app
@@ -40,19 +40,7 @@ services:
     tty: true
     volumes:
       - type: bind
-        source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
-        target: /.nuget/fallbackpackages
-        read_only: true
-        bind:
-          create_host_path: true
-      - type: bind
-        source: C:\Program Files\dotnet\sdk\NuGetFallbackFolder
-        target: /.nuget/fallbackpackages2
-        read_only: true
-        bind:
-          create_host_path: true
-      - type: bind
-        source: C:\Users\Balutek\.nuget\packages\
+        source: C:\Users\ngome\.nuget\packages\
         target: /.nuget/packages
         read_only: true
         bind:
@@ -76,41 +64,41 @@ services:
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas
+        source: C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\MinimalApiPeliculas
         target: /app
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\Balutek\AppData\Roaming/ASP.NET/Https
+        source: C:\Users\ngome\AppData\Roaming/ASP.NET/Https
         target: /home/app/.aspnet/https
         read_only: true
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\Balutek\AppData\Roaming/Microsoft/UserSecrets
+        source: C:\Users\ngome\AppData\Roaming/Microsoft/UserSecrets
         target: /home/app/.microsoft/usersecrets
         read_only: true
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\Balutek\vsdbg\vs2017u5
+        source: C:\Users\ngome\vsdbg\vs2017u5
         target: /remote_debugger
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\Balutek\AppData\Roaming/ASP.NET/Https
+        source: C:\Users\ngome\AppData\Roaming/ASP.NET/Https
         target: /root/.aspnet/https
         read_only: true
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\Balutek\AppData\Roaming/Microsoft/UserSecrets
+        source: C:\Users\ngome\AppData\Roaming/Microsoft/UserSecrets
         target: /root/.microsoft/usersecrets
         read_only: true
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas
+        source: C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas
         target: /src
         bind:
           create_host_path: true

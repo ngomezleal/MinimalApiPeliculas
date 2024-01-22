@@ -64,6 +64,34 @@ namespace MinimalApiPeliculas.Migrations
 
                     b.ToTable("Generos");
                 });
+
+            modelBuilder.Entity("MinimalApiPeliculas.Entidades.Pelicula", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("EnCines")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("FechaLanzamiento")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Poster")
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Titulo")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Peliculas");
+                });
 #pragma warning restore 612, 618
         }
     }
