@@ -37,9 +37,9 @@ namespace MinimalApiPeliculas.Endpoints
             return TypedResults.Ok(actoresDto);
         }
 
-        static async Task<Results<Ok<ActorDto>, NotFound>> ObtenerPorId(IRepositorioActores repositorioActores, IMapper mapper)
+        static async Task<Results<Ok<ActorDto>, NotFound>> ObtenerPorId(int id, IRepositorioActores repositorioActores, IMapper mapper)
         {
-            var actor = await repositorioActores.ObtenerPorId(-1);
+            var actor = await repositorioActores.ObtenerPorId(id);
             if (actor is null)
                 return TypedResults.NotFound();
 

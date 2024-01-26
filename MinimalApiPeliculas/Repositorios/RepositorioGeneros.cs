@@ -41,6 +41,11 @@ namespace MinimalApiPeliculas.Repositorios
             return await context.Generos.AnyAsync(g => g.Id == id);
         }
 
+        public async Task<List<int>> Existe(List<int> ids)
+        {
+            return await context.Generos.Where(g => ids.Contains(g.Id)).Select(g => g.Id).ToListAsync();
+        }
+
         public async Task Borrar(int id)
         {
             await context.Generos.Where(g => g.Id == id).ExecuteDeleteAsync();

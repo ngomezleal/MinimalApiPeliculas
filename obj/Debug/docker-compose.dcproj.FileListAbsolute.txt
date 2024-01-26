@@ -30,6 +30,7 @@ C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\bin\Deb
 C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\bin\Debug\MinimalApiPeliculas.runtimeconfig.json
 C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\bin\Debug\appsettings.Development.json
 C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\bin\Debug\appsettings.json
+C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\bin\Debug\MinimalApiPeliculas.staticwebassets.runtime.json
 C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\bin\Debug\MinimalApiPeliculas.exe
 C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\bin\Debug\MinimalApiPeliculas.dll
 C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\bin\Debug\Microsoft.EntityFrameworkCore.dll
@@ -53,4 +54,3 @@ C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\bin\Deb
 C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\obj\Debug\docker-compose.dcproj.CopyComplete
-C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\bin\Debug\MinimalApiPeliculas.staticwebassets.runtime.json

@@ -54,6 +54,11 @@ namespace MinimalApiPeliculas.Repositorios
             return await context.Actores.AnyAsync(a => a.Id == id);
         }
 
+        public async Task<List<int>> Existe(List<int> ids)
+        {
+            return await context.Actores.Where(a => ids.Contains(a.Id)).Select(a => a.Id).ToListAsync();
+        }
+
         public async Task Actualizar(int id, Actor actor)
         {
             context.Update(actor);

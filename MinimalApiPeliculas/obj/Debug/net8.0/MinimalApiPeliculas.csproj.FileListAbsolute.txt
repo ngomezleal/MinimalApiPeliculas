@@ -143,6 +143,7 @@ C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiP
 C:\Users\Balutek\Documents\Projects Nelson Gomez\MinimalApiPeliculas\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\MinimalApiPeliculas.staticwebassets.runtime.json
 C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\appsettings.json
+C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\MinimalApiPeliculas.staticwebassets.runtime.json
 C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\MinimalApiPeliculas.exe
 C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\MinimalApiPeliculas.deps.json
 C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\MinimalApiPeliculas.runtimeconfig.json
@@ -283,4 +284,3 @@ C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\Minimal
 C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\MinimalApiPeliculas\obj\Debug\net8.0\MinimalApiPeliculas.pdb
 C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\MinimalApiPeliculas\obj\Debug\net8.0\MinimalApiPeliculas.genruntimeconfig.cache
 C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\MinimalApiPeliculas\obj\Debug\net8.0\ref\MinimalApiPeliculas.dll
-C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\MinimalApiPeliculas\MinimalApiPeliculas\bin\Debug\net8.0\MinimalApiPeliculas.staticwebassets.runtime.json

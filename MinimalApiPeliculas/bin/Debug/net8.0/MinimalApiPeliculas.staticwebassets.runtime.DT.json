@@ -17,6 +17,20 @@
         },
         "Asset": null,
         "Patterns": null
+      },
+      "peliculas": {
+        "Children": {
+          "f0aec189-aaaf-4af7-b313-cda952a5cc78.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "peliculas/f0aec189-aaaf-4af7-b313-cda952a5cc78.jpg"
+            },
+            "Patterns": null
+          }
+        },
+        "Asset": null,
+        "Patterns": null
       }
     },
     "Asset": null,
